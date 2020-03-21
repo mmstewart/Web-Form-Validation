@@ -1,4 +1,4 @@
-<h1> Web Form Validation </h1>
+<h1 align=center> Web Form Validation </h1>
 
 ## Author
 
