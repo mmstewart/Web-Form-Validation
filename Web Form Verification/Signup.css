@@ -1,0 +1,145 @@
+/*Background Color*/
+body {
+    background-color: #F8F8F8;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "MinF";
+    src: url(Fonts/dense-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "MinText";
+    src: url(Fonts/bebasneue-regular-webfont.woff)
+}
+
+/*Join IP Header*/
+p#header-join {
+    font-family: "MinF", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    padding-top: 10px;
+}
+
+/*Create Account Header*/
+h1 {
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/*Line Divider*/
+hr {
+    width: 250px;
+    border: .65px solid #DCDCDC;
+}
+
+/*Border Credentials*/
+.credentials {
+    background-color: #FDFEFE;
+    border: 1.4px solid #DCDCDC;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/*Credential Input Text*/
+label {
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*Input Username Credential*/
+input[type=text] {
+    border: 1.4px solid #DCDCDC;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Input Email Address Credential*/
+input[type=email] {
+    border: 1.4px solid #DCDCDC;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Input Password/Confirm Password Credential*/
+input[type=password] {
+    border: 1.4px solid #DCDCDC;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Terms and Conditions*/
+p#terms {
+    font-family: "MinF", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.terms {
+    background-color: #FDFEFE;
+    border: 1.4px solid #DCDCDC;
+    border-radius: 8px;
+    width: 350px;
+}
+
+/*Sign Up Button*/
+input[type=submit] {
+    background-color: rgb(76, 78, 175);
+    color: white;
+    width: 400px;
+    height: 33px;
+    font-size: 14px;
+    border: 1.4px solid rgb(76, 78, 175);
+    border-radius: 4px;
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+}
+
+input[type=submit]:hover {
+    border: 1.4px solid #362e81;
+}
+
+/*Sign In Link*/
+p#signin {
+    font-family: "MinF", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.signin {
+    background-color: #FDFEFE;
+    border: 1.4px solid #DCDCDC;
+    border-radius: 8px;
+    width: 300px;
+}
+
+/*Sign In Link Color*/
+a {
+    color: rgba(32, 116, 241, 0.938);
+}
+
+a:hover {
+    color: rgb(146, 178, 226);
+}

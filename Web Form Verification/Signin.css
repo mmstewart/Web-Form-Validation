@@ -1,0 +1,124 @@
+/*Background Color*/
+body {
+    background-color: #F8F8F8;
+}
+
+/*Table Page Padding*/
+td {
+    padding: 15px;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "MinF";
+    src: url(Fonts/dense-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "MinText";
+    src: url(Fonts/bebasneue-regular-webfont.woff)
+}
+
+/*Sign in to IP Header*/
+p#header {
+    font-family: "MinF", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    padding-top: 10px;
+}
+
+/*Border Credentials*/
+.credentials {
+    background-color: #FDFEFE;
+    border: 1.4px solid #DCDCDC;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/*Credential Input Text*/
+label {
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*Input Username/Email Address Credential*/
+input[type=text] {
+    border: 1.4px solid #DCDCDC;
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Input Password Credential*/
+input[type=password] {
+    border: 1.4px solid #DCDCDC;
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Link: Forgot Password?*/
+a.forgotpassword {
+    font-size: 12px;
+    margin-left: 130px;
+}
+
+/*Sign In Button*/
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    width: 250px;
+    height: 33px;
+    font-size: 14px;
+    border: 1.4px solid #4CAF50;
+    border-radius: 4px;
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+}
+
+input[type=submit]:hover {
+    border: 1.4px solid #2e8131;
+}
+
+/*Sign Up Link*/
+p#signup {
+    font-family: "MinF", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.signup {
+    background-color: #FDFEFE;
+    border: 1.4px solid #DCDCDC;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+/*Copyright Text*/
+.copyright {
+    font-family: "MinText", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+/*Forgot Password/Sign Up Link Color*/
+a {
+    color: rgba(32, 116, 241, 0.938);
+}
+
+a:hover {
+    color: rgb(146, 178, 226);
+}

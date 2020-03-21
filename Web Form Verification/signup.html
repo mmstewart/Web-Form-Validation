@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!--Marcus Stewart-->
+    <!--Front End Developing-->
+    <!--Form Verficiation with UI/UX-->
+
+    <title>Join IP</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+</head>
+
+<body>
+    <center>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <center>
+                            <!--Header-->
+                            <div class="header-join">
+                                <p id="header-join">Join IP</p>
+                                <h1>Create Account</h1>
+                                <hr>
+                                <br><br>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--Credentials Input-->
+                        <div class="credentials">
+                            <div class="username">
+                                <!--Username Input-->
+                                <label for="username">Username</label>
+                                <br>
+                                <input type="text" autocapitalize="off" autocorrect="off" autofocus="autofocus"
+                                    pattern="^[a-z0-9_-]{3,16}$" required>
+                                <br><br>
+                            </div>
+                            <div class="email">
+                                <!--Email Input-->
+                                <label for="email">Email address</label>
+                                <br>
+                                <input type="email" autocapitalize="off" autocorrect="off"
+                                    pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                                    required>
+                                <br><br>
+                            </div>
+                            <div class="password">
+                                <!--Password Input-->
+                                <label for="password">Password</label>
+                                <br>
+                                <!--UpperCase, LowerCase, Number/SpecialChar and min of 13 Chars-->
+                                <input type="password" pattern="(?=^.{13,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$
+                                            " required>
+                                <br><br>
+                            </div>
+                            <div class="password">
+                                <!--Confirm Password Input-->
+                                <label for="password">Confirm password</label>
+                                <br>
+                                <input type="password" required>
+                                <br>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <br>
+                            <!--Terms and Conditions-->
+                            <div class="terms">
+                                <p id="terms">By creating an account, you agree to the <b>Terms of Use</b> and
+                                    acknowledge
+                                    that you have read the <b>Privacy Policy</b>.</p>
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <br>
+                            <!--Sign Up Button-->
+                            <div class="button">
+                                <input type="submit" name="join" value="Sign Up" onclick="main()" />
+                            </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            <br>
+                            <!--Sign In Link-->
+                            <div class="signin">
+                                <p id="signin">Already have an account? <a id="link" href="signin.html">Sign In</a>
+                                </p>
+                            </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+</html>
+</body>
