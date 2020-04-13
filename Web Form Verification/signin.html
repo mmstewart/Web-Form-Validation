@@ -1,80 +1,76 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-<head>
-    <!--Marcus Stewart-->
-    <!--Front End Developing-->
-    <!--Form Verficiation with UI/UX-->
+<!--Marcus Stewart-->
+<!--Front End Developing-->
+<!--Form Verficiation with UI/UX-->
 
-    <title>Sign in to IP</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="Signin.css">
-    <script type="text/javascript" src="Signin.js"></script>
-</head>
+<meta charset="utf-8">
+<title>Sign in to IP</title>
+<link rel="stylesheet" type="text/css" href="Signin.css">
+<script type="text/javascript" src="Signin.js"></script>
 
-<body>
-    <center>
-        <form method="post">
-            <table>
-                <tr>
-                    <td>
-                        <center>
-                            <!--Header-->
-                            <div class="header">
-                                <p id="header">Sign in to IP</p>
-                            </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <!--Credentials Input-->
-                        <div class="credentials">
-                            <div>
-                                <!--Username/Email Address Input-->
-                                <label for="useremail">Username or Email address</label>
-                                <br>
-                                <input type="text" autocapitalize="off" autocorrect="off" autocomplete="username"
-                                    autofocus="autofocus">
-                                <br><br>
-                            </div>
-                            <div>
-                                <!--Password Input-->
-                                <label for="password" autocomplete="current-password">
-                                    Password <a class="forgotpassword" href="password_reset.html">Forgot password?</a>
-                                </label>
-                                <br>
-                                <input type="password">
-                                <br><br>
-                            </div>
-                            <center>
-                                <div class="button">
-                                    <!--Sign In Button-->
-                                    <input type="submit" name="submit" value="Sign In" onclick="main()" />
-                                </div>
+<center>
+    <form method="post">
+        <table>
+            <tr>
+                <td>
+                    <center>
+                        <!--Header-->
+                        <header>
+                            <p id="header">Sign in to IP</p>
+                            <hr>
+                        </header>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!--Credentials Input-->
+                    <div class="credentials">
+                        <div>
+                            <!--Username/Email Address Input-->
+                            <label for="useremail">Username or Email address</label>
+                            <br>
+                            <input type="text" autocapitalize="off" autocorrect="off" autocomplete="username"
+                                autofocus="autofocus">
+                            <br><br>
                         </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
+                        <div>
+                            <!--Password Input-->
+                            <label for="password" autocomplete="current-password">
+                                Password <a class="forgotpassword" href="password_reset.html">Forgot password?</a>
+                            </label>
+                            <br>
+                            <input type="password">
+                            <br><br>
+                        </div>
                         <center>
-                            <div class="signup">
-                                <!--Sign Up Link-->
-                                <p id="signup">Don't have an account? <a id="link" href="signup.html">Sign Up</a></p>
+                            <div class="button">
+                                <!--Sign In Button-->
+                                <input type="submit" name="submit" value="Sign In" onclick="main()" />
                             </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <center>
-                            <div class="copyright">
-                                <!--Copyright Text-->
-                                <p id="copyright">© 2020 Marcus Stewart</p>
-                            </div>
-                    </td>
-                </tr>
-            </table>
-        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <div class="signup">
+                            <!--Sign Up Link-->
+                            <p id="signup">Don't have an account? <a id="link" href="signup.html">Sign Up</a></p>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <div class="copyright">
+                            <!--Copyright Text-->
+                            <p id="copyright">© 2020 Marcus Stewart</p>
+                        </div>
+                </td>
+            </tr>
+        </table>
+    </form>
 
 </html>
-</body>
